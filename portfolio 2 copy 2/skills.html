@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>skills and education</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url("pexels-readymade-3847486.jpg");
+        }
+        .layton{
+            border: #b7410e solid;
+            color: darkolivegreen;
+            font-size: 30px;
+            text-align: center;
+
+        }
+        .wgu{
+            border: #b7410e solid;
+            color: darkolivegreen;
+            font-size: 30px;
+            text-align: center;
+        }
+        .avalon{
+            border: #b7410e solid;
+            color: darkolivegreen;
+            font-size: 30px;
+            text-align: center;
+        }
+        .list{
+            color: darkolivegreen;
+            font-size: 20px;
+            text-align: left;
+        }
+        #container{
+            display: flex;
+            border 2px black;
+            padding: 5px;
+            justify-content: center;
+            gap: 70px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .school{
+            font-size: 50px;
+            color: darkolivegreen;
+            text-decoration: underline #b7410e;
+            text-decoration-thickness: 2px;;
+            text-align: center;
+        }
+        .skills{
+            font-size: 40px;
+            color: darkolivegreen;
+            text-decoration: underline #b7410e;
+            text-decoration-thickness: 2px;
+            text-align: left;
+
+        }
+
+        .work{
+            position: relative;
+            color:#b7410e;
+            display: flex;
+            border: 2px black;
+            padding: 5px;
+            justify-content: left;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 20px;
+            bottom: 300px;
+        }
+        .home{
+            position: relative;
+            color:#b7410e;
+            display: flex;
+            border: 2px black;
+            padding: 5px;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 20px;
+            bottom: 300px;
+        }
+        .pencil{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            display: flex;
+            justify-content: right;
+            left: 800px;
+            right: 100px;
+            top: -300px;
+            bottom: 100px;
+            --s: 10px;
+            padding: var(--s);
+            border: calc(2 * var(--s)) solid #0000;
+            outline: 1px solid #000;
+            outline-offset: calc(-1 * var(--s));
+            background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
+        }
+
+    </style>
+    </head>
+    <body>
+        <h1 class="school"><strong>Education</strong></h1>
+            <div id="container">
+            <div class="layton"><p><strong>Layton high School:</strong> <br>High School Diploma.</p></div>
+           <div class="wgu"> <p><strong> Western Governers University:</strong> <br>Certificate for Front-End Development
+            (currently pursuing).
+            </p></div>
+            
+            <div class="avalon"><p><strong> Avalon School of Cosmetology:</strong><br> License of Cosmetology.</p></div>
+            </div>
+        <h1 class="skills"><strong>Skills</strong></h1>
+
+        <div class="list">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Keen attention to detail</li>
+                <li>Strong communication</li>
+                <li>Creative eye</li>
+                <li>Patience</li>
+                <li>Persistance</li>
+                <li>Passion for learning</li>
+            </ul>
+            </div>
+            <img src="giphy.webp" class="pencil" alt="pencil animation">
+            <a href="work.html" class="work">Previous Page</a> <br>
+            <a href="portfolio2.html" class="home">Home Page</a>
+    </body>
+</html>
